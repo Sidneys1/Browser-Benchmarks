@@ -1,3 +1,4 @@
+
 Browser Benchmarks
 ====
 
@@ -10,6 +11,7 @@ Dates are `YYMMDD`.
 ## Table of Contents
 
 * [BrowserBench](#browserbench)
+    * [ARES-6](#ares-6-101)
     * [Speedometer](#speedometer)
     * [JetStream](#jetstream)
     * [MotionMark](#motionmark)

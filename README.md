@@ -18,6 +18,37 @@ Dates are `YYMMDD`.
 
 ## [BrowserBench](http://BrowserBench.org)
 
+###  [ARES-6 1.0.1](http://browserbench.org/ARES-6/)
+
+> ARES-6 measures the execution time of JavaScript's newest features. [Read more details...](http://browserbench.org/ARES-6/about.html)
+
+_Lower scores and lower variance is better._
+
+|Browser | Version             | Date     | Score        | Variance     |
+|:------:|:-------------------:|:--------:|-------------:|-------------:|
+|Edge    |`41.16257.1000.0 x64`|`20170805`|  `112.87ms`  |  `± 9.61ms`  |
+||
+|Chromium|`57.0.2987.110   x64`|`20170805`| _`Failed  `_ | _`Failed  `_ |
+|Chromium|`60.0.3112.90    x64`|"         |__` 47.36ms`__|__`± 0.93ms`__|
+
+#### Details
+
+|Browser |Test   |Version              |Date      |First Iter    |Worst 4 Iter  |       Average|Avg. Variance |
+|:------:|:-----:|:-------------------:|:--------:|-------------:|-------------:|-------------:|-------------:|
+|Edge    |Air    |`41.16257.1000.0 x64`|`20170805`|  ` 98.03ms`  | _` 90.93ms`_ | _` 56.73ms`_ |  `± 2.99ms`  |
+|"       |Basic  |"                    |"         | _`173.70ms`_ | _`213.96ms`_ | _`164.13ms`_ |  `± 4.52ms`  |
+|"       |Babylon|"                    |"         |__` 75.94ms`__|  ` 31.95ms`  |  ` 18.79ms`  |  `± 2.88ms`  |
+|"       |ML     |"                    |"         |  `335.00ms`  |  `336.77ms`  |  `301.19ms`  |  `±20.18ms`  |
+||
+|Chromium|Air    |`57.0.2987.110   x64`|`20170805`| _`138.62ms`_ |__` 72.72ms`__|  ` 41.09ms`  |        _n/a_ |
+|"       |Basic  |"                    |"         |  ` 89.46ms`  |  ` 34.12ms`  |  ` 27.97ms`  |        _n/a_ |
+|"       |Babylon|"                    |"         |  _Failed_    |  _Failed_    | _Failed_     |    _Failed_  |
+|"       |ML     |"                    |"         | _n/a_        | _n/a_        | _n/a_        |        _n/a_ |
+|Chromium|Air    |`60.0.3112.90    x64`|`20170805`|__` 89.06ms`__|  ` 73.08ms`  |__` 15.66ms`__|__`± 0.12ms`__|
+|"       |Basic  |"                    |"         |__` 83.62ms`__|__` 22.93ms`__|__` 17.05ms`__|__`± 0.53ms`__|
+|"       |Babylon|"                    |"         |  ` 78.77ms`  |__` 24.44ms`__|__`  9.05ms`__|__`± 0.13ms`__|
+|"       |ML     |"                    |"         |__`186.84ms`__|__`112.30ms`__|__`105.46ms`__|__`± 1.05ms`__|
+
 ### [Speedometer](http://BrowserBench.org/Speedometer)
 
 > Speedometer is a browser benchmark that measures the responsiveness of Web applications.
